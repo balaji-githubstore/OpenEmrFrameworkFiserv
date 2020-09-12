@@ -6,7 +6,7 @@ Feature: Login Validation
 
 @valid 
 Scenario: Valid Credential 
-	Given I have 'ch' browser with openemr page url 'https://demo.openemr.io/a/openemr/interface/login/login.php?site=default'
+	Given I have 'ff' browser with openemr page url 'https://demo.openemr.io/a/openemr/interface/login/login.php?site=default'
 	When I enter username as 'admin' and I enter password as 'pass' 
 	And I select Language as 'English (Indian)' 
     Then I should get the access to the portal with title as 'OpenEMR'
