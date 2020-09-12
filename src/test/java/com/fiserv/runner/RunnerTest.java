@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 features = {"src/test/resources/Feature/"}
 ,glue = {"com.fiserv.stepdefn"}
 ,monochrome = true
-,tags = {"@addpatient"}
+,tags = {"@valid"}
 //,dryRun = true
 
 )
