@@ -18,10 +18,10 @@ public class Setup {
 	
 	public static void launchBrowser(String browser,String url)
 	{
-		if (browser.equalsIgnoreCase("ff")) {
+		if (browser.equalsIgnoreCase("ff11")) {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();	
-		} else if (browser.equalsIgnoreCase("ie")) {
+		} else if (browser.equalsIgnoreCase("ie22")) {
 			WebDriverManager.iedriver().setup();
 			driver = new InternetExplorerDriver();
 		} else {
